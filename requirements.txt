@@ -1,0 +1,19 @@
+# Temel veri işleme ve sayısal hesaplama
+pandas
+numpy
+
+# Grafik çizimi ve görselleştirme
+matplotlib
+seaborn
+
+# Zaman serisi modelleri (SARIMA, ADF/KPSS, ACF/PACF)
+statsmodels
+
+# Makine öğrenmesi araçları (OLS, HuberRegressor, train_test_split, metrikler)
+scikit-learn
+
+# Excel dosyalarını okuyabilmek için
+openpyxl
+
+# (Opsiyonel) Jupyter ortamı
+jupyterlab
