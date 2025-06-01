@@ -164,7 +164,7 @@ Konya-Pm10-Analysis/
   - **HuberRegressor:** RMSE ≈ 39.01, MAE ≈ 22.17  
   SARIMA, “mevsim ve trend + otokorelasyon” kombinasyonu sayesinde en düşük hata oranına ulaştı.  
 - **Artıklarda Heteroskedastisite:** Breusch–Pagan testi p ≈ 0.0109 (< 0.05), “artık varyansının sabit olmadığı” anlamına geliyor. Bu, kış aylarında model belirsizliğinin (tahmin aralıklarının) artığına işaret ediyor.  
-- **Uygulama:** Bu model, Konya Belediyesi’nin veya ilgili kurumların “30 gün önceden hava kirliliği uyarısı” yapması için kullanılabilir. Ortalama ±15–20 µg/m³ hata payı, pratik kararlar almak için yeterlidir.
+- **Sonuç:** Konya’da toz yoğunluğunu dört yıl boyunca izlediğimizde, yaz aylarının çoğunlukla temiz hava sunduğunu, kış aylarında ise birdenbire çok kirli günlerin yaşandığını gördük. Geliştirdiğimiz tahmin yöntemi, geçmiş verilerin ve mevsimsel döngünün yardımıyla günlük toz seviyelerini ortalama 15–20 birim hata ile öngörebiliyor. Bu da belediyenin ve halkın "yaklaşan kirli havaya" karşı birkaç gün önceden önlem almasını sağlıyor. Aynı zamanda kış aylarında hava kalitesinin değişkenliği hâlâ fazla olduğu için, ileride bu dalgalanmayı daha da azaltacak ek adımlar atmamız gerektiğini öğrendik. Bu çalışma sayesinde artık Konya’da hangi aylarda ve hangi koşullarda daha çok önlem alınması gerektiğini net olarak biliyoruz.
 
 📜 Lisans
 Bu proje MIT Lisansı ile lisanslanmıştır.
